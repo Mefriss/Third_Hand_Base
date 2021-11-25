@@ -13,7 +13,7 @@ translate([70.71,70.71,20/2-5/2]){
 difference(){
 cylinder(d =30, h =20,center =true);
 translate([0,0,-5])
-bolt("M12",turns = 10,higbee_arc = 30);
+bolt("G1/4",turns = 20,higbee_arc = 30);
 }
 }
 
@@ -21,7 +21,7 @@ translate([-70.71,70.71,20/2-5/2]){
 difference(){
 cylinder(d =30, h =20,center =true);
 translate([0,0,-5])
-bolt("M12",turns = 10,higbee_arc = 30);
+bolt("G1/4",turns = 20,higbee_arc = 30);
 }
 }
 
@@ -29,7 +29,7 @@ translate([70.71,-70.71,20/2-5/2]){
 difference(){
 cylinder(d =30, h =20,center =true);
 translate([0,0,-5])
-bolt("M12",turns = 10,higbee_arc = 30);
+bolt("G1/4",turns = 20,higbee_arc = 30);
 }
 }
 
@@ -37,6 +37,6 @@ translate([-70.71,-70.71,20/2-5/2]){
 difference(){
 cylinder(d =30, h =20,center =true);
 translate([0,0,-5])
-bolt("M12",turns = 10,higbee_arc = 30);
+bolt("G1/4",turns = 20,higbee_arc = 30);
 }
 }
